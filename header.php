@@ -1,26 +1,23 @@
 <!DOCTYPE html>
-<html lang="id" class="no-js">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="widht-device-widht, initial-scale=1">
-
-    <title><?php bloginfo('name'); ?> | <?php wp_title(); ?> </title>
-
-    <meta name="description" content="<?php bloginfo('description'); ?>">
-    <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>?v=xze">
-    <link rel="profile" href="http://pmpg.org/xfn/11">
-    <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
-    <?php wp_head();?>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.css" rel="stylesheet" />
+	<link href="style.css" rel="stylesheet" type="text/css">
 </head>
-<body <?php body_class(); ?>>
-    <div class="header">
-        <div class="logo" >
-            <a href="<?php echo home_url(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/image/logo.png" alt="<?php bloginfo('name'); ?> "></a>
-        </div>
-        <div class="header-right">
-            <ul>
-                    <?php wp_nav_menu(array('theme_location' => 'header-menu')); ?>
-            </ul>
-        </div>
-    </div>
-    
+<body>
+	<div class="header bg-dark">
+		<a href="index.php"><img src="img/logo.png" class="logo"></a>
+		<div class="header-right navbar">
+			<a href="profile.php" class="text-white">PROFILES</a>
+		    <a href="news.php" class="text-white">NEWS</a>
+		    <a href="article.php" class="text-white">ARTICLES</a>
+		    <a href="comment.php" class="text-white">COMMENTS</a>
+		</div>
+	</div>
+</body>
+</html>
