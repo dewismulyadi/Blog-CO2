@@ -11,6 +11,7 @@
 </head>
 <body>
 	<div class="header bg-dark">
+		
 		<a href="index.php"><img src="img/logo.png" class="logo"></a>
 		<div class="header-right navbar">
 			<a href="profile.php" class="text-white">PROFILES</a>

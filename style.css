@@ -10,6 +10,10 @@
     color: #FFFFFF;
 }
 
+.text-yellow {
+    color: #FFC731;
+}
+
 
 /*Header*/
 
@@ -295,95 +299,4 @@ a:active {
 }
 
 
-/*Footer*/
-
-.footer {
-    background-color: #474443;
-    height: 384.19px;
-    width: 100%;
-    top: 100%;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    position: sticky;
-    display: flex;
-}
-
-.footer h3.time {
-    font-style: normal;
-    font-size: 26px;
-    font-weight: bold;
-    line-height: 37.5px;
-    display: flex;
-    margin: 0 auto;
-    align-items: center;
-    color: #FFC731;
-}
-
-.footer h3.title {
-    font-style: normal;
-    font-size: 32px;
-    font-weight: bold;
-    line-height: 30px;
-    display: flex;
-    align-items: center;
-    color: #FFC731;
-}
-
-.footer h3.contact {
-    font-style: normal;
-    font-size: 32px;
-    font-weight: bold;
-    line-height: 30px;
-    display: flex;
-    align-items: center;
-    color: #FFC731;
-}
-
-.footer h5 {
-    font-size: 20px;
-    font-weight: bold;
-    line-height: 23px;
-    margin: 0 auto;
-    flex-wrap: wrap;
-    align-items: center;
-    color: #FFC731;
-}
-
-.footer p {
-    width: 249px;
-    color: #FFFFFF;
-    font-size: 20px;
-    font-weight: bold;
-}
-
-.footer img {
-    display: inline-block;
-    white-space: nowrap;
-    width: 245px;
-    height: 82px;
-}
-
-.left-footer {
-    margin-top: 20px;
-    margin-left: 50px;
-    width: 300px;
-}
-
-.middle-footer {
-    margin-left: 12px;
-    padding-top: 42px;
-}
-
-.right-footer {
-    margin-left: 12px;
-    padding-top: 42px;
-}
-
-.location {
-    display: flex;
-}
-
-.text-yellow {
-    color: #FFC731;
-}
+/*Footer in footer.php*/
