@@ -1,234 +1,74 @@
-<style>
-.bg-dark {
-    background-color: #2f2f2f;
-}
-
-.bg-yellow {
-    background-color: #FFC731;
-}
-
-.text-white {
-    color: #FFFFFF;
-}
-
-.text-yellow {
-    color: #FFC731;
-}
-.display-contents{
-    display: contents;
-}
-.slider {
-    margin-top: 42px;
-    width: 1331px;
-    height: 472px;
-    border-radius: 58px;
-    display: inline-flex;
-    align-items: center;
-    justify-content: space-around;
-}
-.slider img{
-    height: 378px;
-    width: 543px;
-    border-radius: 58px;
-    align-self: center;
-}
-.slider p{
-    font-size: 18px;
-}
-.slider-detail{
-    width: 469px;
-    height: auto;
-    align-items: center;
-    align-content: center;
-    justify-content: space-evenly;
-}
-.home{
-    text-align: -webkit-center;
-}
-
-.home h1{
-    width: 575px;
-    margin-top: 38.26px;
-}
-.home p{
-    font-size: 24px;
-    font-weight: bold;
-}
-.home-info{
-    margin-top: 38.26px;
-    width: 1331px;
-    height: 472px;
-    border-radius: 58px;
-    align-items: center;
-    justify-content: space-around;
-}
-.home-info p{
-    width: 877px;
-    text-align: center;
-    font-size: 28px;
-}
-.home-info button{
-    background-color: #2f2f2f;
-    height: 66px;
-    width: 187px;
-    border-radius: 84px;
-    font-size: 18px;
-    color: #FFC731;
-}
-.support{
-    font-size: 18px;
-    font-weight: bold;
-}
-
-.middle{
-    text-align: center;
-    color: #474443;
-}
-.article-cards {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-.article-card img {
-    display: block;
-    border: 0;
-    width: 100%;
-    height: 269px;
-    border-top-right-radius: 58px;
-    border-top-left-radius: 58px;
-}
-.article-card {
-    background: #474443;
-    margin: 50px;
-    width: 403px;
-    height: 570px;
-    border-radius: 58px;
-    color: #FFFFFF;
-    text-align: center;
-}
-
-.article-card a {
-    color: #FFFFFF;
-    text-decoration: none;
-}
-
-.article-card a:hover {
-    box-shadow: 3px 3px 8px hsl(0, 0%, 80%);
-}
-
-.article-card-content {
-    padding: 1.4em;
-}
-
-.article-card-content h2 {
-    margin-top: 0;
-    margin-bottom: .5em;
-    font-weight: bold;
-    
-}
-</style>
-<?php
-    include 'header.php';
-?>
-<!DOCTYPE html>
+<HEADER.PHP 
+!doctype html>
 <html lang="en">
-<head>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet" />
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
-    <!-- MDB -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.css" rel="stylesheet" />
-    <!-- <link href="style.css" rel="stylesheet" type="text/css"> -->
-    <title>Article & News CO2</title>
-</head>
-<body>
-    <div class="slider bg-dark text-white">
-        <div class="slider-detail">
-            <h1>Collection of Latest Articles and News</h1>
-            <p>We are here to collect news and articles from all national, international and trusted sources and are always updated in gathering news.</p>
-        </div>
-        <img src="img/slider1.jpg" alt="Slider 1">
-    </div>
-    
-    <div class="home">
-        <h1>Welcome to Collection of Latest <span class="text-yellow">Articles and News</span></h1>
-        <p>“Updated and Reliable”</p>
-    </div>
-    <div class="home-info bg-yellow">
-        <div class="">
-            <p>We are here to collect news and articles from all national, international and trusted sources and are always updated in gathering news. <br><br>
-            We accept submissions in the form of articles if the articles we receive are appropriate and appropriate to be posted on our website.</p>
-        </div>
-        
-        <div>
-            <button>Know More</button>
-            <button>Contact Us</button>
-        </div>
-        
-    </div>
-    <p class="home support">For any other inquiries please contact <a href="#">support@codingcollective.com</a></p>
 
-    <div class="middle">
-        <h1>Articles</h1>
-        <h2 class="middle">Most Read :</h2>
-        <section class="article-cards">
-            <article class="article-card">
-                <img src="img/mu.jpg" alt="Manchester United">
-                <div class="article-card-content">
-                    <a href="#"><h2>Pulang ke Manchester United, Cristiano Ronaldo Pakai Nomor Punggung Berapa?</h2></a>
-                    <p>Suara.com - Cristiano Ronaldo resmi kembali ke Manchester United, Jumat (27/8/2021) malam WIB. Lalu penyerang 36 tahun itu akan mengenakan nomor punggung berapa dalam periode keduanya merumput di Old Trafford? .....</p>
-                </div><!-- .card-content -->
-            </article><!-- .card -->
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link href="blog-co2.css" rel="stylesheet" />
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <!-- Header Navigation -->
+    <div class="container-fluid bg-darkalt">
+        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom ">
+            
+            <a href="index.php" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+                <img src="img/logo.png" class="d-inline-block px-lg-4">
+            </a>
 
-            <article class="article-card">
-                <img src="img/positivity-rate.jpg" alt="Positivity Rate">
-                <div class="article-card-content">
-                    <a href="#"><h2>468 Kasus Baru Covid-19 di Jakarta Hari Ini, Positivity Rate di Bawah Batas Aman WHO</h2></a>
-                    <p>JAKARTA, KOMPAS.com - Pemprov DKI Jakarta kembali mengumumkan perkembangan terbaru kasus Covid-19 di Ibukota pada Sabtu (28/8/2021). Berikut rinciannya: ...</p>
-                </div><!-- .card-content -->
-            </article><!-- .card -->
+            <ul class="nav nav-pills nav-blog">
+                <li class="nav-item"><a href="#" class="nav-link text-light"><strong>PROFILE</strong></a></li>
+                <li class="nav-item"><a href="#" class="nav-link text-light"><strong>NEWS</strong></a></li>
+                <li class="nav-item"><a href="#" class="nav-link text-light"><strong>ARTICLES</strong></a></li>
+                <li class="nav-item"><a href="#" class="nav-link text-light"><strong>COMMENTS</strong></a></li>
+               
+            </ul>
+        </header>
+    </div>
+    <!-- End of Header Navigation -->
+<?php include header.php ?>
+    <!-- Content -->
+    <div class="container">
 
-            <article class="article-card">
-                <img src="img/blood-vaksin.jpg" alt="Vaksin Covid-19">
-                <div class="article-card-content">
-                    <a href="#"><h2>Beruntung Bagi yang Sudah Vaksin Covid-19, Penelitian Ini Ungkap Perbedaan Kondisi Orang Sebelum dan Sesudah Vaksin Jik Terinfeksi Covid-19, Ternyata Begini Kondisi Darahnya <br>....</h2></a>
-                </div><!-- .card-content -->
-            </article><!-- .card -->
-        </section><!-- .cards -->
+     <div class="row row-1 bg-darkalt rounded rounded-alt text-light ">
+         <div class="col-md-6">
+            <div class="d-flex flex-column justify-content-center align-items-center h-100 px-4"> 
+                <h1 class="align-middle">Collection of Latest Articles and News</h1>
+                <p>We are here to collect news and articles from all national, international and trusted sources and are always updated in gathering news.</p>
+            </div>
+         </div>
+         <div class="col-md-6 p-4">
+            <img src="img/slider1.jpg" alt="Slider 1" class="img-fluid rounded rounded-alt" >
+         </div>
+     </div>
+     
+     <div class="row">
+         <div class="col-12 text-center py-5">
+            <h1>Welcome to Collection of Latest</h1>
+            <h1 class="text-yellow">Articles and News</h1>
+            <h4><strong>“Updated and Reliable”</strong></h4>
+         </div>
+     </div>
+
     </div>
 
-    <div class="middle">
-        <h1>News</h1>
-        <h2 class="middle">Most Read :</h2>
-        <section class="article-cards">
-            <article class="article-card">
-                <img src="img/mu.jpg" alt="Manchester United">
-                <div class="article-card-content">
-                    <a href="#"><h2>Pulang ke Manchester United, Cristiano Ronaldo Pakai Nomor Punggung Berapa?</h2></a>
-                    <p>Suara.com - Cristiano Ronaldo resmi kembali ke Manchester United, Jumat (27/8/2021) malam WIB. Lalu penyerang 36 tahun itu akan mengenakan nomor punggung berapa dalam periode keduanya merumput di Old Trafford? .....</p>
-                </div><!-- .card-content -->
-            </article><!-- .card -->
 
-            <article class="article-card">
-                <img src="img/positivity-rate.jpg" alt="Positivity Rate">
-                <div class="article-card-content">
-                    <a href="#"><h2>468 Kasus Baru Covid-19 di Jakarta Hari Ini, Positivity Rate di Bawah Batas Aman WHO</h2></a>
-                    <p>JAKARTA, KOMPAS.com - Pemprov DKI Jakarta kembali mengumumkan perkembangan terbaru kasus Covid-19 di Ibukota pada Sabtu (28/8/2021). Berikut rinciannya: ...</p>
-                </div><!-- .card-content -->
-            </article><!-- .card -->
+<?php include footer.php ?>
 
-            <article class="article-card">
-                <img src="img/blood-vaksin.jpg" alt="Vaksin Covid-19">
-                <div class="article-card-content">
-                    <a href="#"><h2>Beruntung Bagi yang Sudah Vaksin Covid-19, Penelitian Ini Ungkap Perbedaan Kondisi Orang Sebelum dan Sesudah Vaksin Jik Terinfeksi Covid-19, Ternyata Begini Kondisi Darahnya <br>....</h2></a>
-                </div><!-- .card-content -->
-            </article><!-- .card -->
-        </section><!-- .cards -->
-    </div>
-    
-</body>
+FOOTER.PHP
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+    -->
+  </body>
 </html>
-<?php 
-    include 'footer.php'; 
-?>
