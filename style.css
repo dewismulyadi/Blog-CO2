@@ -6,6 +6,10 @@
     background-color: #2f2f2f;
 }
 
+.bg-dark {
+    background-color: #FFC731;
+}
+
 .text-white {
     color: #FFFFFF;
 }
@@ -58,6 +62,9 @@ a:active {
         float: none;
     }
 }
+
+
+/* Landing Page */
 
 
 /*Profil*/
