@@ -59,7 +59,6 @@
     width: 1331px;
     height: 472px;
     border-radius: 58px;
-    display: inline-flex;
     align-items: center;
     justify-content: space-around;
 }
@@ -157,10 +156,16 @@
         <p>“Updated and Reliable”</p>
     </div>
     <div class="home-info bg-yellow">
-        <p>We are here to collect news and articles from all national, international and trusted sources and are always updated in gathering news. <br><br>
-        We accept submissions in the form of articles if the articles we receive are appropriate and appropriate to be posted on our website.</p>
-        <button>Know More</button>
-        <button>Contact Us</button>
+        <div class="">
+            <p>We are here to collect news and articles from all national, international and trusted sources and are always updated in gathering news. <br><br>
+            We accept submissions in the form of articles if the articles we receive are appropriate and appropriate to be posted on our website.</p>
+        </div>
+        
+        <div>
+            <button>Know More</button>
+            <button>Contact Us</button>
+        </div>
+        
     </div>
     <p class="home support">For any other inquiries please contact <a href="#">support@codingcollective.com</a></p>
 
@@ -224,3 +229,6 @@
     
 </body>
 </html>
+<?php 
+    include 'footer.php'; 
+?>
