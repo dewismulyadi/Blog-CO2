@@ -2,27 +2,27 @@
 
 <div class="container-fluid">
     <div class="text-center mb-4">
-        <h2>News</h2>
+        <h3 >News</h3>
     </div>
     <div class="row text-center">
         <div class="bg-yellowalt col p-0 ms-4 rounded-alt">
             <img src="image/kasus.jpg" class="img-fluid rounded-top-alt">
             <div>
-                <h4><strong>Ini Judul</strong></h4>
+                <h3>Ini Judul</h3>
                 <p>Potongan berita batas 30 katadfff ggggggggggg gggggggjfffff ffffffffffffffff fffffffffffffffff fffffffffffhgk Potongan berita batas 30 katadfff ggggggggggg gggggggjfffff ffffffffffffffff fffffffffffffffff fffffffffffhgk Potongan berita batas 30 katadfff ggggggggggg gggggggjfffff ffffffffffffffff fffffffffffffffff fffffffffffhgk </p>
             </div>
         </div>
         <div class="bg-yellowalt col p-0 ms-4 rounded rounded-alt">
             <img src="image/kasus.jpg" class="img-fluid rounded-top-alt">
             <div>
-                <h4><strong>Ini Judul</strong></h4>
+                <h3>Ini Judul</h3>
                 <p>Potongan berita batas 30 kata</p>
             </div>
         </div>
         <div class="bg-yellowalt col p-0 ms-4 me-4 rounded rounded-alt">
             <img src="image/kasus.jpg" class="img-fluid rounded-top-alt">
             <div>
-                <h4><strong>Ini Judul</strong></h4>
+                <h3>Ini Judul</h3>
                 <p>Potongan berita batas 30 kata</p>
             </div>
         </div>
