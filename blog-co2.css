@@ -2,6 +2,10 @@
     background-color: #2f2f2f;
 }
 
+.bg-yellowalt {
+    background-color: #FFC731;
+}
+
 .nav-blog li a:hover {
     border-bottom: 4px solid #FFC731;
 }
