@@ -48,7 +48,7 @@
                 <div class="card bg-darkalt text-white rounded rounded-alt">
                     <img src="img/mie.jpg" alt="Mie Instan" class="card-img-top">
                     <div class="card-body text-center">
-                        <a href="#" class="text-white"><h5 class="card-title">Dampak Buruk Mie Instan</h5></a>
+                        <a href="#" class="text-white"><h5 class="card-title"><strong>Dampak Buruk Mie Instan</strong></h5></a>
                         <p class="card-text">Mie instan adalah makanan yang rasannya sangat enak. Tak heran bila makanan in banyak dicintai oleh masyarakat. Namun ternyata sering mengkonsumsi mie instan membawa dampak buruk bagi tubuh. Berdasarkan....</p>
                     </div>
                 </div>
@@ -57,7 +57,7 @@
                 <div class="card bg-darkalt text-white rounded rounded-alt">
                     <img src="img/mie.jpg" alt="Mie Instan" class="card-img-top">
                     <div class="card-body text-center">
-                        <a href="#" class="text-white"><h5 class="card-title">Berhasilkah Pendidikan Kita?</h5></a>
+                        <a href="#" class="text-white"><h5 class="card-title"><strong>Berhasilkah Pendidikan Kita?</strong></h5></a>
                         <p class="card-text">Pendidikan merupakan sebuah usaha atau proses yang melibatkan peserta didik dan pengajar dalam suatu waktu dengan tujuan mencapai manusia yang bermartabat. Di Indonesia....</p>
                     </div>
                 </div>
@@ -67,7 +67,7 @@
                 <div class="card bg-darkalt text-white rounded rounded-alt">
                     <img src="img/mie.jpg" alt="Mie Instan" class="card-img-top">
                     <div class="card-body text-center">
-                        <a href="#" class="text-white"><h5 class="card-title">Teknologi GPS Terbaru</h5></a>
+                        <a href="#" class="text-white"><h5 class="card-title"><strong>Teknologi GPS Terbaru</strong></h5></a>
                         <p class="card-text">Informasi tebaru mengatakan bahwa perusahaan X telah berhasil meluncurkan produk baru dengan teknologi GPS yang sangat canggih. Perusahaan X berhasil mengembangkan sebuah smartphone</p>
                     </div>
                 </div>
@@ -86,7 +86,7 @@
                 <div class="card bg-yellowalt text-dark rounded rounded-alt">
                     <img src="img/mie.jpg" alt="Mie Instan" class="card-img-top">
                     <div class="card-body text-center">
-                        <a href="#" class="text-dark"><h5 class="card-title">Dampak Buruk Mie Instan</h5></a>
+                        <a href="#" class="text-dark"><h5 class="card-title"><strong>Dampak Buruk Mie Instan</strong></h5></a>
                         <p class="card-text">Mie instan adalah makanan yang rasannya sangat enak. Tak heran bila makanan in banyak dicintai oleh masyarakat. Namun ternyata sering mengkonsumsi mie instan membawa dampak buruk bagi tubuh. Berdasarkan....</p>
                     </div>
                 </div>
@@ -95,7 +95,7 @@
                 <div class="card bg-yellowalt text-dark rounded rounded-alt">
                     <img src="img/mie.jpg" alt="Mie Instan" class="card-img-top">
                     <div class="card-body text-center">
-                        <a href="#" class="text-dark"><h5 class="card-title">Berhasilkah Pendidikan Kita?</h5></a>
+                        <a href="#" class="text-dark"><h5 class="card-title"><strong>Berhasilkah Pendidikan Kita?</strong></h5></a>
                         <p class="card-text">Pendidikan merupakan sebuah usaha atau proses yang melibatkan peserta didik dan pengajar dalam suatu waktu dengan tujuan mencapai manusia yang bermartabat. Di Indonesia....</p>
                     </div>
                 </div>
@@ -105,7 +105,7 @@
                 <div class="card bg-yellowalt text-dark rounded rounded-alt">
                     <img src="img/mie.jpg" alt="Mie Instan" class="card-img-top">
                     <div class="card-body text-center">
-                        <a href="#" class="text-dark"><h5 class="card-title">Teknologi GPS Terbaru</h5></a>
+                        <a href="#" class="text-dark"><h5 class="card-title"><strong>Teknologi GPS Terbaru</strong></h5></a>
                         <p class="card-text">Informasi tebaru mengatakan bahwa perusahaan X telah berhasil meluncurkan produk baru dengan teknologi GPS yang sangat canggih. Perusahaan X berhasil mengembangkan sebuah smartphone</p>
                     </div>
                 </div>
