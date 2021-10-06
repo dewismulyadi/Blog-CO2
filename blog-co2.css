@@ -14,6 +14,11 @@
     border-radius: 2rem !important;
 }
 
+.rounded-top-alt {
+    border-top-left-radius: 2rem !important;
+    border-top-right-radius: 2rem !important;
+}
+
 .text-yellow {
     color: #FFC731
 }
