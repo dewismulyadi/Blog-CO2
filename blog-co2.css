@@ -22,3 +22,8 @@
 .text-yellow {
     color: #FFC731
 }
+
+.rounded-top-alt{
+    border-top-left-radius: 2rem !important;
+    border-top-right-radius: 2rem !important;
+}
