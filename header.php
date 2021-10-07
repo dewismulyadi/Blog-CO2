@@ -1,81 +1,31 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<title>header</title>
-	<style>
-	* {box-sizing: border-box;}
-	body { 
-		margin: 0;
-		font-family: Roboto, sans-serif;
-	}
-	@media screen and (max-width: 500px) {
-  		.header-left {
-  			display: none;
-  		}
-	}
-	/*Header*/
-	.header {
-		background-color: #474443;
-		height: 120px;
-		padding: 20px ;
-		align-items: center;
-		display: flex;
-		justify-content: space-between;
-	}
-	.header a {
-		color: #FFFFFF;
-		text-align: right;
-		align-items: center;
-		padding: 12px;
-		text-decoration: none;
-		font-size: 16px; 
-		font-style: normal;
-		font-weight: 900;
-		font-family: Roboto, sans-serif;
-		line-height: 18.75px;
-		display: inline;
-	}
-	.header img {
-		width: 241px;
-		height: 80px;
-		margin-left: 58px;
-		vertical-align: middle;
-	}
-	.header a:hover {
-		border-bottom: 4px solid #FFC731;
-	}
-	.header a.active {
-		border-bottom: 4px solid #FFC731;
-	}
-	.header-right {
-	  float: right;
-	}
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-	</style>
-<body>
-	<div class="header bg-dark">
-		<div class="header-left">
-		<a href="index.php"><img src="img/logo.png" class="logo"></a>
-		</div>
-		<div class="header-right">
-		    <a class="active" href="#home">PROFILES</a>
-	    	<a href="#contact">NEWS</a>
-	    	<a href="#about">ARTICLES</a>
-	    	<a href="#about">COMMENTS</a>
-  		</div>
-	</div>
-	
-	</body>
-</html>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link href="blog-co2.css" rel="stylesheet" />
+    <title>Article & News CO2</title>
+  </head>
+  <body>
+    <!-- Header Navigation -->
+    <div class="container-fluid bg-darkalt">
+        <header class="d-flex flex-wrap justify-content-center py-3 border-bottom ">
+            
+            <a href="index.php" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+                <img src="img/logo.png" class="d-inline-block px-lg-4">
+            </a>
 
-
-
-
-
-
-
-
-
-
-
+            <ul class="nav nav-pills nav-blog">
+                <li class="nav-item"><a href="#" class="nav-link text-light"><strong>PROFILE</strong></a></li>
+                <li class="nav-item"><a href="#" class="nav-link text-light"><strong>NEWS</strong></a></li>
+                <li class="nav-item"><a href="#" class="nav-link text-light"><strong>ARTICLES</strong></a></li>
+                <li class="nav-item"><a href="#" class="nav-link text-light"><strong>COMMENTS</strong></a></li>
+               
+            </ul>
+        </header>
+    </div>
+    <!-- End of Header Navigation -->
