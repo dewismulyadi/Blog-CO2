@@ -20,10 +20,10 @@
             </a>
 
             <ul class="nav nav-pills nav-blog">
-                <li class="nav-item"><a href="#" class="nav-link text-light"><strong>PROFILE</strong></a></li>
-                <li class="nav-item"><a href="#" class="nav-link text-light"><strong>NEWS</strong></a></li>
-                <li class="nav-item"><a href="#" class="nav-link text-light"><strong>ARTICLES</strong></a></li>
-                <li class="nav-item"><a href="#" class="nav-link text-light"><strong>COMMENTS</strong></a></li>
+                <li class="nav-item"><a href="profile.php" class="nav-link text-light"><strong>PROFILE</strong></a></li>
+                <li class="nav-item"><a href="news.php" class="nav-link text-light"><strong>NEWS</strong></a></li>
+                <li class="nav-item"><a href="article.php" class="nav-link text-light"><strong>ARTICLES</strong></a></li>
+                <li class="nav-item"><a href="comment-form.php" class="nav-link text-light"><strong>COMMENTS</strong></a></li>
                
             </ul>
         </header>
