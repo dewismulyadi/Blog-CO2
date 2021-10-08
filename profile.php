@@ -1,7 +1,7 @@
 <?php include 'header.php' ?>
     <!-- Content -->
-    <div class="container">
-		<div class="text-center py-3">
+    <div class="container my-5">
+		<div class="text-center pb-3">
 			<img src="img/profil.jpg" class="rounded-alt w-75">
 		</div>
 		

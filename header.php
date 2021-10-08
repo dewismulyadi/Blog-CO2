@@ -10,7 +10,7 @@
     <link href="blog-co2.css" rel="stylesheet" />
     <title>Article & News CO2</title>
   </head>
-  <body background="img/bg.jpg" style="background-size: contain; background-repeat: initial;">
+  <body background="img/bg.jpg" style="background-size: contain; background-repeat: round;">
     <!-- Header Navigation -->
     <div class="container-fluid bg-darkalt">
         <header class="d-flex flex-wrap justify-content-center py-3 border-bottom ">

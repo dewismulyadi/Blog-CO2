@@ -1,7 +1,7 @@
 <?php include 'header.php' ?>
     <!-- Content -->
     <div class="container-fluid">
-        <div class="row row-1 bg-darkalt rounded rounded-alt text-light ms-5 me-5">
+        <div class="row row-1 bg-darkalt rounded rounded-alt text-light mt-5 ms-5 me-5">
             <div class="col-md-6 pt-5">
                 <div class="d-flex flex-column justify-content-center align-items-center h-100 px-4"> 
                     <h1 class="align-middle">Collection of Latest Articles and News</h1>
@@ -74,7 +74,7 @@
             </div>
         </div>
 
-        <div class="row text-center justify-content-center mx-auto">
+        <div class="row text-center justify-content-center mx-auto mb-5">
             <div class="col-md-3 col-sm-12 bg-yellowalt text-dark p-0 mx-auto rounded-alt mb-4">
                 <img src="img/mu.jpg" alt="Manchester United" class="img-fluid rounded-top-alt">
                 <div class="p-3">
