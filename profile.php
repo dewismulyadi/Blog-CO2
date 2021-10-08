@@ -19,7 +19,7 @@
 		</div>
 
 		<div class="text-center py-3">
-			<button class="bg-darkalt rounded-alt text-yellow px-5 py-2">SEND</button>
+			<a href="article-form.php" class="text-dark text-decoration-none"><button class="bg-darkalt rounded-alt text-yellow px-5 py-2">SEND</button></a>
 		</div>
 		
 	</div>

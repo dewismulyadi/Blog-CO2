@@ -26,8 +26,8 @@
                 <p>We are here to collect news and articles from all national, international and trusted sources and are always updated in gathering news.<br><br>We accept submissions in the form of articles if the articles we receive are appropriate and appropriate to be posted on our website.</p>
             </div>
             <div class="col-md-12 mx-auto">
-                <button class="bg-darkalt rounded rounded-alt text-yellow px-3 py-2 mx-5"><strong>Know More</strong></button>
-                <button class="bg-darkalt rounded rounded-alt text-yellow px-3 py-2 mx-5 mt-3"><strong>Contact Us</strong></button>
+                <a href="profile.php" class="text-dark text-decoration-none"><button class="bg-darkalt rounded rounded-alt text-yellow px-3 py-2 mx-5"><strong>Know More</strong></button></a>
+                <a href="#" class="text-dark text-decoration-none"><button class="bg-darkalt rounded rounded-alt text-yellow px-3 py-2 mx-5 mt-3"><strong>Contact Us</strong></button></a>
             </div>
         </div>
         <p class="text-center">For any other inquiries please contact <a class="text-decoration-none" href="#">support@codingcollective.com</a></p>

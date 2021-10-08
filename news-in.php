@@ -20,7 +20,7 @@
 				<h2 class="text-center m-4"><strong>Popular<span class="text-yellow"> Articles</span></strong></h2>
 				<div class="row my-2">
 					<div class="col-7">
-						<a href="#" class="text-dark text-decoration-none"><h6><strong>Dampak Buruk Mie Instan</strong></h6></a>
+						<a href="article-in.php" class="text-dark text-decoration-none"><h6><strong>Dampak Buruk Mie Instan</strong></h6></a>
 					</div>
 					<div class="col-5">
 						<img src="img/mie.jpg" alt="Mie Instan" class="img-fluid">
@@ -29,7 +29,7 @@
 
 				<div class="row my-2">
 					<div class="col-7">
-						<a href="#" class="text-dark text-decoration-none"><h6><strong>Berhasilkah Pendidikan Kita?</strong></h6></a>
+						<a href="article-in.php" class="text-dark text-decoration-none"><h6><strong>Berhasilkah Pendidikan Kita?</strong></h6></a>
 					</div>
 					<div class="col-5">
 						<img src="img/pendidikan.jpg" alt="Pendidikan" class="img-fluid">
@@ -38,21 +38,21 @@
 
 				<div class="row my-2">
 					<div class="col-7">
-						<a href="#" class="text-dark text-decoration-none"><h6><strong>Teknologi GPS Terbaru</strong></h6></a>
+						<a href="article-in.php" class="text-dark text-decoration-none"><h6><strong>Teknologi GPS Terbaru</strong></h6></a>
 					</div>
 					<div class="col-5">
 						<img src="img/gps.jpg" alt="Teknologi GPS" class="img-fluid">
 					</div>
 				</div>
 
-				<a href="#" class="text-dark text-decoration-none"><h6 class="text-center m-4 mb-5"><strong>See more...</strong></h6></a>
+				<a href="article.php" class="text-dark text-decoration-none"><h6 class="text-center m-4 mb-5"><strong>See more...</strong></h6></a>
 			</div>
 
 			<div class="m-4">
 				<h2 class="text-center m-4"><strong>Popular<span class="text-yellow"> News</span></strong></h2>
 				<div class="row my-2">
 					<div class="col-7">
-						<a href="#" class="text-dark text-decoration-none"><h6><strong>Pulang ke Manchester United, Cristiano Ronaldo Pakai Nomor Punggung Berapa?</strong></h6></a>
+						<a href="news-in.php" class="text-dark text-decoration-none"><h6><strong>Pulang ke Manchester United, Cristiano Ronaldo Pakai Nomor Punggung Berapa?</strong></h6></a>
 					</div>
 					<div class="col-5">
 						<img src="img/mu.jpg" alt="Manchester United" class="img-fluid">
@@ -61,7 +61,7 @@
 
 				<div class="row my-2">
 					<div class="col-7">
-						<a href="#" class="text-dark text-decoration-none"><h6><strong>468 Kasus Baru Covid-19 di Jakarta Hari Ini, Positivity Rate di Bawah Batas Aman WHO</strong></h6></a>
+						<a href="news-in.php" class="text-dark text-decoration-none"><h6><strong>468 Kasus Baru Covid-19 di Jakarta Hari Ini, Positivity Rate di Bawah Batas Aman WHO</strong></h6></a>
 					</div>
 					<div class="col-5">
 						<img src="img/positivity-rate.jpg" alt="Positivity Rate" class="img-fluid">
@@ -70,13 +70,13 @@
 
 				<div class="row my-2">
 					<div class="col-7">
-						<a href="#" class="text-dark text-decoration-none"><h6><strong>Beruntung Bagi yang Sudah Vaksin Covid-19, Penelitian Ini Ungkap Perbedaan Kondisi Orang Sebelum dan Sesudah Vaksin Jik Terinfeksi Covid-19, Ternyata Begini Kondisi Darahnya....</strong></h6></a>
+						<a href="news-in.php" class="text-dark text-decoration-none"><h6><strong>Beruntung Bagi yang Sudah Vaksin Covid-19, Penelitian Ini Ungkap Perbedaan Kondisi Orang Sebelum dan Sesudah Vaksin Jik Terinfeksi Covid-19, Ternyata Begini Kondisi Darahnya....</strong></h6></a>
 					</div>
 					<div class="col-5">
 						<img src="img/blood-vaksin.jpg" alt="Vaksinasi" class="img-fluid">
 					</div>
 				</div>
-				<a href="#" class="text-dark text-decoration-none"><h6 class="text-center m-4"><strong>See more...</strong></h6></a>
+				<a href="news.php" class="text-dark text-decoration-none"><h6 class="text-center m-4"><strong>See more...</strong></h6></a>
 			</div>
 		</div>
 	</div>
