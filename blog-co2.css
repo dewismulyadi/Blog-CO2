@@ -7,6 +7,14 @@
 }
 
 
+/* button:hover .form {
+    background: #FFC731;
+    color: #2f2f2f;
+    cursor: pointer;
+    border-style: none;
+} */
+
+
 /* .bg-dark-articles:hover {
     background: #2f2f2f;
     color: #FFFFFF;
@@ -18,6 +26,10 @@
     color: #2f2f2f;
     cursor: pointer;
 } */
+
+.nav-blog li a:active {
+    border-bottom: 4px solid #FFC731;
+}
 
 .nav-blog li a:hover {
     border-bottom: 4px solid #FFC731;

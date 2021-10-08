@@ -32,7 +32,7 @@
                 <div class="col-md-9 col-sm-12">
                     <input type="comment" placeholder="Input your comment" class="form-text border-0 border-bottom w-100" id="exampleInputEmail1" aria-describedby="emailHelp">
                     <div class="col-2 my-4 py-3">
-                        <button class="bg-darkalt text-yellow rounded-alt px-5 py-2">SEND</button>
+                        <button class="bg-darkalt text-yellow rounded-alt px-5 py-2"><strong>SEND</strong></button>
                     </div>
                 </div>
             </div>
