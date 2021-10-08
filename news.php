@@ -4,6 +4,7 @@
     <div class="row">
         <div class="col-12 text-center py-4">
             <a href="#" class="text-dark text-decoration-none"><h2><strong>News</strong></h2></a>
+            <h4>Most Read :</h4>
         </div>
     </div>
 
