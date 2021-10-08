@@ -6,6 +6,19 @@
     background-color: #FFC731;
 }
 
+
+/* .bg-dark-articles:hover {
+    background: #2f2f2f;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.bg-yellow-news:hover {
+    background: #FFC731;
+    color: #2f2f2f;
+    cursor: pointer;
+} */
+
 .nav-blog li a:hover {
     border-bottom: 4px solid #FFC731;
 }
