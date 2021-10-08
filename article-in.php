@@ -1,7 +1,9 @@
 <?php include 'header.php' ?>
 
 	<div class="row ps-4 ms-4 mt-5">
-		<h1><strong>Dampak Buruk Mie Instan</strong></h1>
+		<div class="col-8">
+			<h1><strong>Dampak Buruk Mie Instan</strong></h1>
+		</div>
 	</div>
 
 	<div class="row ps-4 pe-4 ms-4 mb-5">
@@ -14,7 +16,7 @@
 
 		<div class="col-4 pe-4">
 			<div class="m-4">
-				<h2 class="text-center m-4"><strong>Popular<span class="text-yellow"> Article</span></strong></h2>
+				<h2 class="text-center m-4"><strong>Popular<span class="text-yellow"> Articles</span></strong></h2>
 				<div class="row my-2">
 					<div class="col-7">
 						<a href="#" class="text-dark text-decoration-none"><h6><strong>Dampak Buruk Mie Instan</strong></h6></a>
