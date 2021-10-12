@@ -6,9 +6,10 @@ function header_menu() {
 add_action( 'init', 'header_menu' ); 
 
 function my_excerpt_length($length){
-	return 30;
+	return 10;
 }
 add_filter('excerpt_length', 'my_excerpt_length');
+
 add_theme_support('post-thumbnails', array('post', 'page'));
 
 function my_register_sidebars() {

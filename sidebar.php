@@ -1,5 +1,5 @@
-<div id="primary" class="sidebar">
-    <?php do_action( 'before_sidebar' ); ?>
+<div id="primary" class="sidebar col-4 pe-4">
+<?php do_action( 'before_sidebar' ); ?>
     <?php if ( ! dynamic_sidebar( 'sidebar-primary' ) ) : ?>  
         <?php 
         $recent = new WP_Query(
@@ -9,27 +9,24 @@
                 'category_name' => 'Artikel',
                 'order'=> 'DESC',
                 )
-        );
-        ?>                 
-        <aside id="post-<?php the_ID(); ?>" class="widget-article" itemprop="mainEntity" itemscope itemtype="http://schema.org/BlogPosting">
-            <div class="article-in-right">
-                <h4>Popular <span class="text-yellow">Articles</span></h4>
-                <?php while($recent->have_posts()) : $recent->the_post(); //standart wordpress loop ?>
-                <div class="article-in-right-item">
-                    <div class="article-in-right-popular">
-                        <div class="article-in-right-popular-detail">
-                            <h6><?php the_title( sprintf( '<a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a>' ); ?>
-                            </h6>
-                            <p><?php echo get_the_excerpt(); ?></p>
-                        </div>
-                        <div class="article-in-right-popular-img">
-                            <img src="<?php echo get_the_post_thumbnail_url(get_the_ID(),'full'); ?>" alt="<?php the_title(); ?>">
-                        </div>
-                    </div>
-                </div>
-                <?php endwhile; ?>
-            </div>
-        </aside>
+        );?>
+		<div id="post-<?php the_ID(); ?>" class="m-4 widget-article" itemprop="mainEntity" itemscope itemtype="http://schema.org/BlogPosting">
+			<h4 class="m-4 text-center">Popular<span class="text-yellow"> article</span></h4>
+            <?php if($recent->have_posts()) :
+                    while ($recent->have_posts()):$recent->the_post();?> 
+			<div class="my-2 row">
+				<div class="col-7">
+					<h6><a class="text-dark text-decoration-none" href="<?php the_permalink(); ?>"> <?php the_title();?></a></h6>
+				</div>
+				<div class="col-5">
+                    <img src="<?php echo get_the_post_thumbnail_url(); ?>" alt="<?php the_title(); ?>" class="img-fluid">
+				</div>
+			</div>
+            <?php endwhile; ?>
+            <?php endif; ?>
+            <h6 class="m-4 text-center"><a class="text-dark text-decoration-none" href="http://localhost/wordpress/category/artikel/">See more...</a></h6>
+        </div>
+
         <?php 
         $recent = new WP_Query(
             array(
@@ -38,26 +35,22 @@
                 'category_name' => 'Berita',
                 'order'=> 'DESC',
                 )
-        );
-        ?>                 
-        <aside id="post-<?php the_ID(); ?>" class="widget-article" itemprop="mainEntity" itemscope itemtype="http://schema.org/BlogPosting">
-            <div class="article-in-right">
-                <h4>Popular <span class="text-yellow">News</span></h4>
-                <?php while($recent->have_posts()) : $recent->the_post(); //standart wordpress loop ?>
-                <div class="article-in-right-item">
-                    <div class="article-in-right-popular">
-                        <div class="article-in-right-popular-detail">
-                            <h6><?php the_title( sprintf( '<a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a>' ); ?>
-                            </h6>
-                            <p><?php echo get_the_excerpt(); ?></p>
-                        </div>
-                        <div class="article-in-right-popular-img">
-                            <img src="<?php echo get_the_post_thumbnail_url(get_the_ID(),'full'); ?>" alt="<?php the_title(); ?>">
-                        </div>
-                    </div>
-                </div>
-                <?php endwhile; ?>
-            </div>
-        </aside>
-   <?php endif; ?>
+        );?>
+		<div id="post-<?php the_ID(); ?>" class="m-4 widget-article" itemprop="mainEntity" itemscope itemtype="http://schema.org/BlogPosting">
+			<h4 class="m-4 text-center">Popular<span class="text-yellow"> Berita</span></h4>
+            <?php if($recent->have_posts()) :
+                    while ($recent->have_posts()):$recent->the_post();?> 
+			<div class="my-2 row">
+				<div class="col-7">
+					<h6><a class="text-dark text-decoration-none" href="<?php the_permalink(); ?>"> <?php the_title();?></a></h6>
+				</div>
+				<div class="col-5">
+                    <img src="<?php echo get_the_post_thumbnail_url(); ?>" alt="<?php the_title(); ?>" class="img-fluid">
+				</div>
+			</div>
+            <?php endwhile; ?>
+            <?php endif; ?>
+            <h6 class="m-4 text-center"><a class="text-dark text-decoration-none" href="http://localhost/wordpress/category/berita/">See more...</a></h6>
+        </div>
+        <?php endif; ?>
 </div>
