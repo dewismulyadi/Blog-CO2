@@ -66,7 +66,6 @@
 	    	<a href="#about">COMMENTS</a>
   		</div>
 	</div>
-	
 	</body>
 </html>
 
