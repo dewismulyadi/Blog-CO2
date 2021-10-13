@@ -43,7 +43,7 @@
 		margin-left: 58px;
 		vertical-align: middle;
 	}
-	.header a:hover {
+	.header-right a:hover {
 		border-bottom: 4px solid #FFC731;
 	}
 	.header a.active {
@@ -66,7 +66,7 @@
 	    	<a href="#about">COMMENTS</a>
   		</div>
 	</div>
-  
+
 	</body>
 </html>
 
