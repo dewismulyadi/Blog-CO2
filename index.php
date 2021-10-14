@@ -8,7 +8,7 @@
                     <p>We are here to collect news and articles from all national, international and trusted sources and are always updated in gathering news.</p>
                 </div>
             </div>
-            <div class="col-md-6 p-4 mb-4">
+            <div class="col-md-6 p-4 my-2">
                 <img src="img/slider1.jpg" alt="Slider 1" class="img-fluid rounded rounded-alt" >
             </div>
         </div>
