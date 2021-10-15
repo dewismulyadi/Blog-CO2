@@ -1,3 +1,18 @@
+ /*
+Theme Name: CO2 Blog
+Theme URI: https://codingcollective.com
+Author: Magang PNP
+Author URI: https://codingcollective.com
+Description: Tema yang dirancang khusus untuk blog CO2, yang menggunakan font-awesome dan font-roboto.
+Tags: blog, one-column, custom-background, custom-colors, custom-logo, custom-menu, editor-style, featured-images, footer-widgets, full-width-template, theme-options, block-styles, 
+Version: 1.0
+Requires at least: 7.0
+Requires PHP: 7.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: co2
+*/
+
 .bg-darkalt {
     background-color: #2f2f2f;
 }
@@ -6,7 +21,32 @@
     background-color: #FFC731;
 }
 
-.nav-blog ul li a:hover {
+
+/* button:hover .form {
+    background: #FFC731;
+    color: #2f2f2f;
+    cursor: pointer;
+    border-style: none;
+} */
+
+
+/* .bg-dark-articles:hover {
+    background: #2f2f2f;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.bg-yellow-news:hover {
+    background: #FFC731;
+    color: #2f2f2f;
+    cursor: pointer;
+} */
+
+.nav-blog li a:active {
+    border-bottom: 4px solid #FFC731;
+}
+
+.nav-blog li a:hover {
     border-bottom: 4px solid #FFC731;
 }
 
@@ -26,9 +66,18 @@
 /*header*/
 .nav ul{
     display: flex;
+    list-style: none;
 }
 .nav ul li a{
     padding: 1rem;
     text-decoration: none;
     color: white;
+}
+
+/*archive*/
+.Artikel a{
+    color: white;
+}
+.Berita a{
+    color: black;
 }

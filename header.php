@@ -8,13 +8,13 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <meta name="description" content="<?php bloginfo('description'); ?>">
-    <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>?v=xzrre">
+    <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>?v=xhhhze">
     <link rel="profile" href="http://pmpg.org/xfn/11">
     <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
     
     <?php wp_head();?>
 </head>
-<body <?php body_class(); ?>>
+<body background="http://localhost/wordpress/wp-content/uploads/2021/10/bg-1.jpg" style="background-size: contain; background-repeat: round;" <?php body_class(); ?> >
 <!-- Header Navigation -->
     <div class="container-fluid bg-darkalt">
         <header class="flex-wrap p-3 d-flex justify-content-between ">
