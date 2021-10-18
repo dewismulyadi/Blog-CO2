@@ -6,9 +6,10 @@ function header_menu() {
 add_action( 'init', 'header_menu' ); 
 
 function my_excerpt_length($length){
-	return 30;
+	return 50;
 }
-add_filter('excerpt_length', 'my_excerpt_length');
+add_filter('excerpt_length', 'my_excerpt_length');       
+
 add_theme_support('post-thumbnails', array('post', 'page'));
 
 function my_register_sidebars() {
@@ -26,3 +27,4 @@ function my_register_sidebars() {
     );
 }
 add_action( 'widgets_init', 'my_register_sidebars' );
+
